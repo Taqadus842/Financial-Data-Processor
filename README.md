@@ -15,17 +15,7 @@ The **Financial Data Processor** is a Streamlit-based web application that allow
 - **🧪 Performance** – Benchmark different methods and view results.  
 - **💰 Subset Sum** – Solve subset sum problems (e.g., find transactions that sum up to a target).  
 
----
 
-## 📂 Project Structure
-Financial-Data-Processor/
-│── app.py # Main Streamlit app
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
-│── cleaned_dataset.xlsx # Example cleaned dataset
-│── storage/ # Internal session storage
-
----
 
 ## ⚙️ Installation
 
@@ -34,12 +24,12 @@ Financial-Data-Processor/
    git clone[https://github.com/Taqadus842/Financial-Data-Processor].git
    cd financial-data-processor
 2. Install dependencies:
-
-pip install -r requirements.txt
+     ```bash
+   pip install -r requirements.txt
 
 
 3. Run the Streamlit app:
-
+  ```bash
 streamlit run app.py
 
 
